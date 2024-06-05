@@ -1,4 +1,7 @@
 spring:
+
+  application:
+    name: Authentication_Service
   datasource:
     url: jdbc:mysql://localhost:3306/sbms
     username: root 
