@@ -22,12 +22,13 @@ management:
 server:
  port: 8081
 
-Authentication_Service :
-    messages :
-      userReg : User Registered 
-      authFailed : Authentication failed
-      userAdded : User Added
-      userUpdated : User Updated
-      userDeleted : User deleted
-      userRecords : User Records 
-      userRecord : User Record
+# Application messages goes here
+authentication-service:
+ messages: 
+  userReg : User Registered 
+  authFailed : Authentication failed
+  userAdded : User Added
+  userUpdated : User Updated
+  userDeleted : User deleted
+  userRecords : User Records 
+  userRecord : User Record
