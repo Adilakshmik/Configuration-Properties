@@ -27,6 +27,8 @@ authentication-service:
  messages: 
   userReg : User Registered 
   authFailed : Authentication failed
+  userLogin : User Loggined
+  userLoginErr : User Loggin failed
   userAdded : User Added
   userUpdated : User Updated
   userDeleted : User deleted
