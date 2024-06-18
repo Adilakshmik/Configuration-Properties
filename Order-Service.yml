@@ -1,0 +1,29 @@
+spring:      
+  datasource:
+    password: Adilakshmi@1
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  boot:
+   admin:
+      client:
+        url: http://localhost:1111/  
+    
+server:
+  port: 8084
+      
+order-service :
+ messages :
+  addCart : Added To Cart Successfully
+  addCartErr : failed To Add Cart
+  updateCart : Cart Updated Successfully
+  updateCartErr : failed To Update Cart
+  getOrdersByIdErr : failed To retrieve Orders By Id
+  getOrdersById : retrieved Orders By Id
+  getAllOrders : retrieved All Orders 
+  getAllOrdersErr : failed To retrieved All Orders
+  getOrdersByStatusAndDateErr : failed To retrieve Orders By Id
+  getOrdersByStatusAndDate : retrieved Orders By Id 

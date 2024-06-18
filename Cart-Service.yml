@@ -1,0 +1,30 @@
+spring:     
+  datasource:
+    password: Adilakshmi@1
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  boot:
+    admin:
+     client:
+       url: http://localhost:1111/  
+server:
+  port: 8083
+    
+cart-service:
+ messages :    
+  updatedCart: Updated Product
+  cartUpdationErr: failed To Update Product
+  userDeleted: User Deleted Successfully
+  userDeletionErr: failed To Delete User
+  RetrievingCart: Retrieving The Cart Details
+  RetrievingCartErr: failed To Retrieve The Cart Details
+  addedToCart: Added To Cart Successfully
+  addedToCartErr: failed To Add Product
+ 
+
+ 
